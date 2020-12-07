@@ -1,2 +1,2 @@
 # AMACA
-Adaptive methods for accelerating convolution operators in different numeric precision settings and sparsification
+Adaptive methods for accelerating convolution operators in different numeric precision settings and sparsity conditions
