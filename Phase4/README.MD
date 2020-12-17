@@ -1,9 +1,10 @@
 PHASE 3:
-in this phase, you can train your models. 
-This process, which will also generate learning curves is managed by the python script trainModels.py
+This phase is dedicated to model training and selection. 
+run the modelsEvaluation.py will genreate images and tables that help you decide which model is best suited for the task.
 
-TRAIN
-the trainModels script has some customizamible parameters. 
+
+ModelsEevaluation.py
+the modelsEvaluation.py script has some customizamible parameters. 
 If you run it as it is (default parameters are commented) you will reproduce our results. 
 Otherwise, you can change:
 
