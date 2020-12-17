@@ -1,0 +1,64 @@
+@RELATION convolution
+@ATTRIBUTE tensor_1 INTEGER
+@ATTRIBUTE tensor_2 INTEGER
+@ATTRIBUTE tensor_3 INTEGER
+@ATTRIBUTE tensor_4 INTEGER
+@ATTRIBUTE tensor_5 INTEGER
+@ATTRIBUTE tensor_6 INTEGER
+@ATTRIBUTE tensor_7 INTEGER
+@ATTRIBUTE tuner INTEGER
+@ATTRIBUTE precision INTEGER
+@attribute architecture INTEGER
+@ATTRIBUTE class {conv,directconv,winogradconv}
+
+
+
+@DATA
+112,14,14,3,224,1,1,0,1,1,conv-armcl
+128,14,14,3,256,1,1,0,1,1,conv-armcl
+128,28,28,3,192,1,1,0,1,1,conv-armcl
+144,14,14,3,288,1,1,0,1,1,conv-armcl
+16,14,14,5,48,1,2,0,1,1,directconv-armcl
+16,28,28,5,32,1,2,0,1,1,directconv-armcl
+160,14,14,3,320,1,1,0,1,1,conv-armcl
+160,7,7,3,320,1,1,0,1,1,directconv-armcl
+192,28,28,1,16,1,0,0,1,1,directconv-armcl
+192,28,28,1,32,1,0,0,1,1,directconv-armcl
+192,28,28,1,64,1,0,0,1,1,directconv-armcl
+192,28,28,1,96,1,0,0,1,1,conv-armcl
+192,7,7,3,348,1,1,0,1,1,directconv-armcl
+24,14,14,5,64,1,2,0,1,1,directconv-armcl
+256,28,28,1,128,1,0,0,1,1,conv-armcl
+256,28,28,1,32,1,0,0,1,1,directconv-armcl
+256,28,28,1,64,1,0,0,1,1,conv-armcl
+3,227,227,7,64,2,3,0,1,1,conv-armcl
+32,14,14,5,128,1,2,0,1,1,directconv-armcl
+32,14,14,5,64,1,2,0,1,1,directconv-armcl
+32,28,28,5,96,1,2,0,1,1,conv-armcl
+32,7,7,5,128,1,2,0,1,1,directconv-armcl
+48,7,7,5,128,1,2,0,1,1,directconv-armcl
+480,14,14,1,192,1,0,0,1,1,conv-armcl
+480,14,14,1,64,1,0,0,1,1,directconv-armcl
+480,14,14,1,96,1,0,0,1,1,conv-armcl
+512,14,14,1,112,1,0,0,1,1,directconv-armcl
+512,14,14,1,128,1,0,0,1,1,conv-armcl
+512,14,14,1,144,1,0,0,1,1,conv-armcl
+512,14,14,1,160,1,0,0,1,1,conv-armcl
+512,14,14,1,24,1,0,0,1,1,directconv-armcl
+512,14,14,1,32,1,0,0,1,1,directconv-armcl
+512,14,14,1,64,1,0,0,1,1,directconv-armcl
+528,14,14,1,128,1,0,0,1,1,conv-armcl
+528,14,14,1,160,1,0,0,1,1,conv-armcl
+528,14,14,1,256,1,0,0,1,1,conv-armcl
+528,14,14,1,32,1,0,0,1,1,directconv-armcl
+64,57,57,1,64,1,0,0,1,1,conv-armcl
+64,57,57,3,192,1,1,0,1,1,conv-armcl
+832,7,7,1,128,1,0,0,1,1,directconv-armcl
+832,7,7,1,160,1,0,0,1,1,directconv-armcl
+832,7,7,1,192,1,0,0,1,1,directconv-armcl
+832,7,7,1,256,1,0,0,1,1,directconv-armcl
+832,7,7,1,32,1,0,0,1,1,directconv-armcl
+832,7,7,1,384,1,0,0,1,1,conv-armcl
+832,7,7,1,48,1,0,0,1,1,directconv-armcl
+96,14,14,3,208,1,1,0,1,1,conv-armcl
+96,28,28,3,128,1,1,0,1,1,conv-armcl

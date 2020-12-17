@@ -1,0 +1,49 @@
+@RELATION convolution
+@ATTRIBUTE tensor_1 INTEGER
+@ATTRIBUTE tensor_2 INTEGER
+@ATTRIBUTE tensor_3 INTEGER
+@ATTRIBUTE tensor_4 INTEGER
+@ATTRIBUTE tensor_5 INTEGER
+@ATTRIBUTE tensor_6 INTEGER
+@ATTRIBUTE tensor_7 INTEGER
+@ATTRIBUTE tuner INTEGER
+@ATTRIBUTE precision INTEGER
+@attribute architecture INTEGER
+@ATTRIBUTE class {conv,directconv,winogradconv}
+
+
+
+@DATA
+1024,14,14,1,2048,2,0,0,0,1,conv
+1024,14,14,1,256,1,0,0,0,1,conv
+1024,14,14,1,512,2,0,0,0,1,conv
+128,28,28,1,512,1,0,0,0,1,conv
+128,28,28,3,128,1,1,0,0,1,conv
+2048,7,7,1,512,1,0,0,0,1,conv
+256,14,14,1,1024,1,0,0,0,1,conv
+256,14,14,3,256,1,1,0,0,1,conv
+256,56,56,1,128,2,0,0,0,1,conv
+256,56,56,1,512,2,0,0,0,1,conv
+256,56,56,1,64,1,0,0,0,1,conv
+512,28,28,1,1024,2,0,0,0,1,conv
+512,28,28,1,128,1,0,0,0,1,conv
+512,28,28,1,256,2,0,0,0,1,conv
+512,7,7,1,2048,1,0,0,0,1,conv
+512,7,7,3,512,1,1,0,0,1,conv
+64,56,56,1,256,1,0,0,0,1,conv
+64,56,56,1,64,1,0,0,0,1,conv
+64,56,56,3,64,1,1,0,0,1,winogradconv
+128,125,125,3,256,1,1,0,0,1,conv
+128,250,250,3,128,1,1,0,0,1,conv
+21,10,10,4,21,2,0,0,0,1,conv
+256,125,125,3,256,1,1,0,0,1,conv
+256,63,63,3,512,1,1,0,0,1,conv
+3,500,500,3,64,1,1,0,0,1,conv
+4096,10,10,1,21,1,0,0,0,1,conv
+4096,10,10,1,4096,1,0,0,0,1,conv
+512,16,16,7,4096,1,1,0,0,1,conv
+512,32,32,1,21,1,0,0,0,1,conv
+512,32,32,3,512,1,1,0,0,1,conv
+512,63,63,3,512,1,1,0,0,1,conv
+64,250,250,3,128,1,1,0,0,1,conv
+64,500,500,3,64,1,1,0,0,1,conv

@@ -1,0 +1,13 @@
+,W,H,C_IN,KERNEL_SIZE,C_OUT (filters count),STRIDE,PAD,,Layer name
+Network-in-Network,224,224,3,11,96,4,0,,test 
+Network-in-Network,54,54,96,1,96,1,0,,test 
+Network-in-Network,54,54,96,1,96,1,0,,test 
+Network-in-Network,27,27,96,5,256,1,2,,test 
+Network-in-Network,27,27,256,1,256,1,0,,test 
+Network-in-Network,27,27,256,1,256,1,0,,test 
+Network-in-Network,13,13,256,3,384,1,1,,test 
+Network-in-Network,13,13,384,1,384,1,0,,test 
+Network-in-Network,13,13,384,1,384,1,0,,test 
+Network-in-Network,6,6,384,3,1024,1,1,,test 
+Network-in-Network,6,6,1024,1,1024,1,0,,test 
+Network-in-Network,6,6,1024,1,1000,1,0,,test 

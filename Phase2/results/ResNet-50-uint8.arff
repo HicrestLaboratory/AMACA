@@ -1,0 +1,36 @@
+@RELATION convolution
+@ATTRIBUTE tensor_1 INTEGER
+@ATTRIBUTE tensor_2 INTEGER
+@ATTRIBUTE tensor_3 INTEGER
+@ATTRIBUTE tensor_4 INTEGER
+@ATTRIBUTE tensor_5 INTEGER
+@ATTRIBUTE tensor_6 INTEGER
+@ATTRIBUTE tensor_7 INTEGER
+@ATTRIBUTE tuner INTEGER
+@ATTRIBUTE precision INTEGER
+@attribute architecture INTEGER
+@ATTRIBUTE class {conv,directconv,winogradconv}
+
+
+
+@DATA
+1024,14,14,1,2048,2,0,0,1,1,directconv-armcl
+1024,14,14,1,256,1,0,0,1,1,conv-armcl
+1024,14,14,1,512,2,0,0,1,1,directconv-armcl
+128,28,28,1,512,1,0,0,1,1,conv-armcl
+128,28,28,3,128,1,1,0,1,1,conv-armcl
+2048,7,7,1,512,1,0,0,1,1,directconv-armcl
+256,14,14,1,1024,1,0,0,1,1,conv-armcl
+256,14,14,3,256,1,1,0,1,1,conv-armcl
+256,56,56,1,128,2,0,0,1,1,conv-armcl
+256,56,56,1,512,2,0,0,1,1,conv-armcl
+256,56,56,1,64,1,0,0,1,1,conv-armcl
+3,224,224,7,64,2,3,0,1,1,conv-armcl
+512,28,28,1,1024,2,0,0,1,1,conv-armcl
+512,28,28,1,128,1,0,0,1,1,conv-armcl
+512,28,28,1,256,2,0,0,1,1,conv-armcl
+512,7,7,1,2048,1,0,0,1,1,conv-armcl
+512,7,7,3,512,1,1,0,1,1,directconv-armcl
+64,56,56,1,256,1,0,0,1,1,conv-armcl
+64,56,56,1,64,1,0,0,1,1,directconv-armcl
+64,56,56,3,64,1,1,0,1,1,conv-armcl
