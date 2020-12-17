@@ -139,17 +139,23 @@ def plot_learning_curve(estimator, title, X, y, axes=None, ylim=None, cv=None,
 
 
 
+"""
+******************************************************************************
+************************  EXPERIMENT PARAMETERS  *****************************
+******************************************************************************
+"""
 
-selected_models = [1,2,3,4,5,6,7,8]
-selection2 = 0;
-train_sizes= [0.01, 0.02, 0.05, 0.1, 0.25, 0.5, 0.75, 1.]
-grids_cv = 5;
-learn_cv = 10;
-loading = True;
-do_learning_curves = True;
+selected_models = [1,2,3,4,5,6,7,8] #select the models to be trained and test. Default = [1,2,3,4,5,6,7,8]
+train_sizes= [0.01, 0.02, 0.05, 0.1, 0.25, 0.5, 0.75, 1.] #training sizes for building the learning curves. Default:  [0.01, 0.02, 0.05, 0.1, 0.25, 0.5, 0.75, 1.]
+grids_cv = 5; # cross-validations split for huperparameters selection. Default: 5;
+learn_cv = 10; # cross-validation split for the learning curves. Default: 10;
+loading = True; # Load the pre-trained models, or train new ones.
+do_learning_curves = True; #draw learning curves.
 
 
-folder = "Latest_experiments/";
+folder = "Latest_experiments/"; # The folder were the experiment is going to be performed. If loading = true, this folder cannot be empty.
+
+selection2 = 0; #0: hyperparameter-tuning with cross-validation. 1: disabled, fixed parameters. 
 
 
 font = {'family' : 'normal',

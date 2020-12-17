@@ -8,10 +8,10 @@ At the moment, the project focuses on the ARM Compute Library (ARMCL) and its fo
 
 
 ROADMAP 
-* Phase 1: Design and implementation
-* Phase 2: Dataset Generation
-* Phase 3: Dataset Analysis
-* Phase 4: Single-objective Classification
+* Part 1: Design and implementation
+* Part 2: Dataset Generation
+* Part 3: Dataset Analysis
+* Part 4: Single-objective Classification
 * We are here!
-* Phase 5: Multiple-objective Classification
-* Phase 6: Finalization
+* Part 5: Multiple-objective Classification
+* Part 6: Finalization
