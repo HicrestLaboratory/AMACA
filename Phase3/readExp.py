@@ -9,8 +9,6 @@ import ck.kernel as ck
 import codecs
 verbose         = 1
 
-#MODIFIED BY PAOLO#######
-
 nets = ['NiN','ResNet-50','FCN16','GoogLeNet'];
 
 net = nets[int(raw_input('0:NiN,1:ResNet-50,2:FCN16,3:GoogLeNet'))];
